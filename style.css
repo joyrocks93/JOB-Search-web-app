@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body{
+    font-size: 1.8vw;
+    /* background-image: url("./Pic1.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.333),rgba(0, 0, 0, 0.327)), url("https://img.freepik.com/free-vector/working-table-education-school-objects-copy-space-text-flat-cartoon-lay-top-view_101884-481.jpg?w=2000");
+    background-size:  100vw 130vh;
+    background-repeat: no-repeat;
+    background-position: fixed;
+
+}
+.logo img{
+    float: left;
+    width: 400px;
+    height: auto;
+    position:fixed; 
+	top:0; 
+	left:0; 
+    
+}
+#main{
+    position: relative;
+    width: 40vw;
+    background-image: url("https://www.onlinemarketplaces.com/wp-content/uploads/2021/07/work-employee-business-workforce-communication-email-productivity-office-digital-1.png");
+    /* background-size:center; */
+    background-size: 44vw 54vh;
+    background-position: fixed;
+    border: 0.5vh   solid rgb(0, 0, 0);
+    /* background-repeat: no-repeat; */
+    /* background-position: 0% 20%; */
+    padding: 8vh 1vw;
+    padding-bottom: 2.5rem;
+    border-radius: 2rem;
+    border-color: black;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(0,0,0,0.4);
+    /* opacity: 0.5; */
+
+}
+#heading{
+    /* width: 2vw; */
+    height: 8vh;
+  border: 0.5vh   solid rgb(0, 0, 0);
+  border-radius: 2rem;
+  background-color: #8aebfa;
+   padding: 1vw ;
+  margin-bottom: 12vh;
+}
+h1{
+    /* padding-bottom: 15vh; */
+    color: #336699;
+    -webkit-text-stroke-width: 0.001px;
+     -webkit-text-stroke-color: black;
+}
+#Topic{
+    position: relative;
+    font-size: 1.5vw;
+    /* font-size:15px; */
+    margin-top: 16vh;
+    margin-left:1.3vw;
+    text-decoration: none;
+    width: 18vw;
+    height: 18vh;
+    background-color: rgb(199, 14, 14);
+    padding: 2vh 0.2vw;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(0,0,0,0.4z);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+#L,#V,#N{
+   
+    text-decoration: none;
+}
+#L:hover,#V:hover,#N:hover{
+    background-color: rgb(116, 240, 229);
+}
+*{
+    /* background-color: rgb(71, 219, 219); */
+    /* font size:30vh; */
+    display: grid;
+    margin:auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    font-weight:1600 ;
+    min-height: 2.4vh;
+    display:; 
+    place-items: center;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+}
+
+title {
+    display: none;
+}
